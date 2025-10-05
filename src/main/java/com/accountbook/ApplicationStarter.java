@@ -93,7 +93,7 @@ public class ApplicationStarter extends Application {
             // Wait for Spring Boot to start
             waitForSpringBoot( );
 
-            MainView.configureStage( primaryStage, "AccountBook/home/index", springContext );
+            MainView.configureStage( primaryStage, "" /*add webpage url if using webview*/, springContext );
 
             // Show the application
             primaryStage.show( );
